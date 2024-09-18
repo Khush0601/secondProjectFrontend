@@ -1,0 +1,10 @@
+.search-result-input{
+    width: 500px;
+padding: 10px;
+margin-right: 100px;
+}
+.search-result-content{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}

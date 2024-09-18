@@ -1,0 +1,37 @@
+.app-header-buttons{
+    /* background-color: rgb(133, 145, 180); */
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.app-header-buttons>div{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+.section-div{
+    width: 100%;
+    /* background-color: rgb(137, 124, 166); */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+.section-upper{
+    /* background-color: rgb(100, 151, 122); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-lower{
+    width: 500px;
+ /* background-color: rgb(191, 128, 187); */
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
