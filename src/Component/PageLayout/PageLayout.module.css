@@ -1,0 +1,80 @@
+.app-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+     background-color: rgb(209, 55, 55);
+ }
+ .app-header-bar{
+     width: 100%;
+     height: 100px;
+     background-color: rgb(217, 192, 117);
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .app-header-icons{
+    background-color: aqua;
+     margin-left: 150px;
+     display: flex;
+ }
+ .icon{
+     width: 80px;
+      background-color: rgb(127, 186, 81);
+ }
+ .company-name{
+     
+     /* background-color: aqua; */
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .girman{
+     
+     /* background-color: rgb(185, 193, 130); */
+     font-weight: bold;
+     font-size: 43px;
+     display: flex;
+   align-items: center;
+    justify-content: center;
+     
+ }
+ .technologies{
+   
+     /* background-color: rgb(157, 146, 187); */
+     letter-spacing: 3.5px;
+     font-weight: 500;
+     display: flex;
+     align-items: center;
+      justify-content: center;
+ }
+ .app-header-buttons{
+     background-color: rgb(133, 145, 180);
+     margin-right: 150px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .app-header-buttons>div{
+     font-size: 20px;
+     font-weight: 400;
+     padding: 10px;
+ }
+ .section{
+     width: 100%;
+     flex-grow: 1;
+     background-color: rgb(100, 198, 139);
+     display: flex;
+    justify-content: center;
+   
+ }
+ .section-div{
+     width: 60%;
+     height: 250px;
+     background-color: rgb(137, 124, 166);
+     margin-top: 40px;
+ 
+    
+ }
